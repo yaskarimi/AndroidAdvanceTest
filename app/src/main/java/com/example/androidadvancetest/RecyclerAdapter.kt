@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import java.util.zip.Inflater
 
-class RecyclerAdapter (val list : List<String>): RecyclerView.Adapter<RecyclerAdapter.RecyclerViewHolder>() {
+class RecyclerAdapter (val list : ArrayList<NameModel>): RecyclerView.Adapter<RecyclerAdapter.RecyclerViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerViewHolder {
